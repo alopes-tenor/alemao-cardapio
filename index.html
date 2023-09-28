@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CardapioAlemao</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <img src="img/logo.jpg" alt="Logo" class="container_img">
+            <h1 class="container_titulo"> Alemão Burguer</h1>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner_titulo">Alemão Burger</h2>
+        <p class="banner_subtitulo">Especialistas em ESMAGAR sua FOME!</p>
+    </section>
+    <h2 class="carousel_titulo">Os queridinhos da casa.</h2>
+    <div class="carrossel_container">
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/big-fake.jpg" alt="BigFake" class="carousel_imagem"><p class="texto__imagem">BIG FAKE - R$ 45,90</p></div>
+                <div class="swiper-slide"><img src="img/lanche01.jpg" alt="GreatTasty" class="carousel_imagem"><p class="texto__imagem">GREAT TASTY - R$ 40,90</p></div>
+                <div class="swiper-slide"><img src="img/LANCHE03.jpg" alt="ChickenSalad" class="carousel_imagem"><p class="texto__imagem">CHICKEN SALAD - R$ 32,90</p></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card_destaque">
+            <div class="destaque">
+                <h3 class="destaque_titulo">A LIMONADA QUE VAI DERRETER SUA SEDE</h3>
+                            <h2 class="destaque_titulo_produto">Pink Lemonade</h2>
+                            <p class="destaque_texto">Nossa pink lemonade contém a combinação dos sucos mais refrescantes para sua sede, sem perder o estilo. Por apenas 15,90 .</p>
+                        </div>
+                        <img src="img/pinklemonade.jpg" class="destaque_img">
+                    </div>
+                </div>
+            </div>
+    </section>
+        <h2 class="carousel_titulo">Bebidas para acompanhar.</h2>
+            <div class="carrossel_container">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/bebida01.jpg" alt="Cerveja" class="carousel_imagem"><p class="texto__imagem">Cerveja - R$ 5,90</p></div>
+                        <div class="swiper-slide"><img src="img/bebidas02.jpg" alt="SucoRefri" class="carousel_imagem"><p class="texto__imagem">Sucos e Refrigerantes - R$ 7,90</p></div>
+                        <div class="swiper-slide"><img src="img/milkshake01.jpg" alt="Milkshake" class="carousel_imagem"><p class="texto__imagem">Milkshake(sabores variados) - R$ 12,90</p></div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+      });
+    </script>
+</body>
+</html>
+            <!-- <section class="carousel">
+                <h2 class="carousel_titulo">Escolha o lanche que vai acabar com a sua fome!</h2>
+                    <div class="carousel_container">
+                        <div class="swiper">
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/big-fake.jpg" alt="BigFakr" class="carousel_imagem"><p class="texto__imagem">Big Fake - R$ 42,90</p></div>
+                                <div class="swiper-slide"><img src="img/lanche01.jpg" alt="GreatTasty" class="carousel_imagem"><p class="texto__imagem">Great Tasty - R$ 35,90</p></div>
+                                <div class="swiper-slide"><img src="img/LANCHE03.jpg" alt="ChickenSalad" class="carousel_imagem"><p class="texto__imagem">Chicken Salad - R$ 29,90</p></div>
+                                
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div> -->
